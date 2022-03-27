@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Extension Downloader",
+  "description": "It can generate the download url of browser extensions",
+  "version": "1.0.0",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": ["background_script.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Extension Downloader"
+  }
+}
